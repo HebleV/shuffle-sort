@@ -9,8 +9,8 @@ header {
 
 ul {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     list-style: none;
 }
 
@@ -68,7 +68,7 @@ li {
     color:#fff;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin:0.5rem 2.5rem;
+    margin:0.5rem 1.6rem;
 
 }
 
