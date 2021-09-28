@@ -3,7 +3,6 @@ const sortBtn = document.querySelector("#sort-btn");
 
 const ul = document.querySelector('ul');
 
-console.log(ul.children.length)
 const shuffleElements = () => {
     for (let i = ul.children.length; i >= 0; i--) {
         ul.appendChild(ul.children[Math.random() * i | 0]);
@@ -29,7 +28,6 @@ let switchElement, i;
     }
   }
 }
-
 
 shuffleBtn.addEventListener("click", shuffleElements);
 sortBtn.addEventListener("click", sortElements);
