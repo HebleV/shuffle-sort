@@ -1,0 +1,90 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color:#fff;
+    font-size: 36px;
+}
+
+.list-one {
+    background-color:#6F98A8;
+}
+
+.list-two {
+    background-color:#288EAD;
+}
+
+.list-three {
+    background-color:#2F454E;
+}
+
+.list-four {
+    background-color:#288EAD;
+}
+
+.list-five {
+    background-color:#2F454E;
+}
+
+.list-six {
+    background-color:#BFBFBF;
+}
+
+.list-seven {
+    background-color:#BFBFBF;
+}
+
+.list-eight {
+    background-color:#6F98A8;
+}
+
+.list-nine {
+    background-color:#2F454E;
+}
+
+#shuffle-btn, #sort-btn {
+    border:none;
+    border-radius: 5px;
+    width: 15%;
+    padding: 0.5rem;
+    background-color: #81b1c5;
+    color:#fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin:0.5rem 2.5rem;
+
+}
+
+@media only screen and (max-width: 375px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        padding:0;
+    }
+    ul li {
+        margin: 0.25rem 0;
+    }
+    #shuffle-btn, #sort-btn {
+        width: 50%;
+        display: block;
+        margin: 1rem auto;
+    }
+  }
